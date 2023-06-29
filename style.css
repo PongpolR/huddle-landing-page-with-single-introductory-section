@@ -1,0 +1,16 @@
+@media all {
+  body {
+    background: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+  }
+}
+
+/* desktop */
+@media (min-width: 376px) {
+
+}
+
+/* mobile */
+@media (max-width: 375px) {
+
+}
