@@ -6,14 +6,12 @@
   }
   
   .fa {
-    /* padding: 10px 5px; */
-    /* font-size: 30px; */
-    padding: 15px 10px;
+    padding: 10px 5px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     border-radius: 50%;
     border: 1px solid white;
   }
@@ -46,17 +44,31 @@
     margin-bottom: -0.1rem;
   }
   p {
-    width: 80%;
+    width: 78%;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
   }
   footer {
     text-align: right;
-    margin-right: 3rem;
+    margin-top: 1.8rem;
+    margin-right: 7rem;
   }
   .img-mockup {
     margin: 0 4rem;
+  }
+  button {
+    padding: 0.6rem 3.5rem;
+    padding-bottom: 0.8rem;
+    border-radius: 20px;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 10px 15px;
+    cursor: pointer;
   }
 }
 
