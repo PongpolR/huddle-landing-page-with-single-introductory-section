@@ -6,10 +6,10 @@
   }
   
   .fa {
-    padding: 10px 5px;
+    /* padding: 10px 5px; */
     /* font-size: 30px; */
+    padding: 15px 10px;
     width: 30px;
-    /* height: 30px; */
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -30,15 +30,33 @@
 /* desktop */
 @media (min-width: 376px) {
   header {
-    padding: 3rem;
-    padding-bottom: 6rem;
+    padding: 4rem;
+    padding-bottom: 3rem;
   }
   main {
+    
     display: flex;
+  }
+  h1 {
+    font-size: 40px;
+    width: 80%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: -0.1rem;
+  }
+  p {
+    width: 80%;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Open Sans', sans-serif;
   }
   footer {
     text-align: right;
     margin-right: 3rem;
+  }
+  .img-mockup {
+    margin: 0 4rem;
   }
 }
 
